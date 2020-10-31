@@ -1,0 +1,24 @@
+<!-- 继承模板页 -->
+{{extend './layout.html'}}
+
+{{ block 'head' }}
+<style>
+  body {
+    background-color: pink;
+  }
+</style>
+{{ /block }}
+
+
+{{ block 'content' }}
+<div>
+  <h2>index页面 填坑内容</h2>
+</div>
+{{ /block }}
+
+
+{{ block 'script' }}
+<script>
+  alert('hello')
+</script>
+{{ /block }}
